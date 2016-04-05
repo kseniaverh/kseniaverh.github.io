@@ -1,0 +1,19 @@
+.underline-div {
+	border-bottom: 1px solid;
+
+}
+
+.central-block {
+	margin: 0 auto;
+	width: 600px;
+
+}
+
+.general-info-block {
+	text-align: center;
+}
+
+body {
+	font-family: arial;
+	font-weight: lighter;
+}
