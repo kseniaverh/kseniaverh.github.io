@@ -1,11 +1,17 @@
 .underline-div {
-	border-bottom: 1px solid;
+	border-bottom: 1px solid #000;
+
 
 }
+.block2 span {display: block;}
+
+.block3 span {display: block;}
 
 .central-block {
 	margin: 0 auto;
 	width: 600px;
+	background-color: white;
+	padding: 50px;
 
 }
 
@@ -16,4 +22,9 @@
 body {
 	font-family: arial;
 	font-weight: lighter;
+	background-color: #EFEFEF;
 }
+
+
+
+
