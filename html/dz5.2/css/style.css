@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+}
+
+table {
+	border: 9px solid white;
+	border-collapse: collapse;
+
+}
+
+td {
+	border: 8px solid black;
+}
+
+.black-cell {
+	background-image: url(blackbg.png);
+}
+
+.blue-cell {
+	background-image: url(bluebg.png);
+}
+
+.yellow-cell {
+	background-image: url(yellowbg.png);
+}
+
+.red-cell {
+	background-image: url(redbg.png);
+}
