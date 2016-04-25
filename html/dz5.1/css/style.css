@@ -10,9 +10,8 @@
 body {
 	font-family: Helvetica Neue;
 	background-color: #FFFFFF;
-	background-image: url(images/background.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: url(images/background.jpg) no-repeat center;
+	background-size: cover;
 
 }
 
@@ -116,7 +115,6 @@ img {
 	background-color: rgba(0,0,0,0.7);
 	color: white;
 	width: 560px;
-	height: 610px;
 	position: absolute;
 	top: 50%;
 	margin-top: -305px;
@@ -151,7 +149,7 @@ img {
 
 #main_form li input[type=text], 
 #main_form li input[type=password]{
-	width: 255px;
+	width: 235px;
 	height: 35px;
 	background-color: black;
 	color: white;
@@ -159,6 +157,7 @@ img {
 	border-bottom: 1px solid rgba(255,255,255,0.5);
 	padding-left: 20px;
 	font-size: 15px;
+	padding-right: 20px
 }
 
 #main_form li label {
@@ -193,7 +192,7 @@ img {
 	padding-left: 7px;
 }
 
-#main_form button.facebook_button {
+#main_form a.facebook_button {
 	background-image: url(images/facebook.png);
 	background-repeat: repeat;
 	border: none;
